@@ -329,6 +329,10 @@ input[type="checkbox"] {
   /* resto de estilos */
   }
 
+  .nav-container {               
+  padding: 0 0px;             
+}
+
   .mobile-menu-toggle {
     display: flex; /* visible en móvil */
   }
@@ -371,21 +375,21 @@ input[type="checkbox"] {
   }
 
   .header-txt h1 {
-    font-size: 42px !important;
-    line-height: 1.2;
+    font-size: 32px !important;
+    line-height: 1;
     margin-bottom: 8px;
     max-width: 90vw;
     word-break: break-word;
   }
 
   .header-txt h2 {
-    font-size: 26px !important;
-    line-height: 1.2;
+    font-size: 22px !important;
+    line-height: 1;
     margin-bottom: 10px;
   }
 
   .header-txt p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 12px;
   }
 
@@ -404,21 +408,21 @@ input[type="checkbox"] {
     width: 85%; /* aire lateral móvil, si se quiere llenar toda la pantalla eliminar*/
   }
 
-  .glass-section h2,
-  .glass-section h3 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  .glass-section h2, .glass-section h3 {
+    text-align: left;
   }
 
   .glass-section h2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
-  .glass-text {
+  .glass-section h3{
+    font-size: 1rem;
+  }
+
+  .glass-text p{
     flex: 1 1 auto;
     padding-right: 0;         /* elimina espacio lateral */
-    width: 100%;
     font-size: 0.8rem;
   }
 
@@ -432,7 +436,7 @@ input[type="checkbox"] {
 
   .glass-image img {
     width: 100%;
-    height: auto;             /* sin altura fija */
+    height: 160px;             /* sin altura fija */
     border-radius: 15px 15px 0 0; /* solo esquinas superiores redondeadas */
   }
 

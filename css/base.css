@@ -24,6 +24,7 @@ body {
 
   display: flex;
   flex-direction: column;
+  background: #1a1f4e;
 }
 
 html, body {
@@ -38,20 +39,6 @@ main {
 
 img {
   max-width: 100%;           /* Las imágenes nunca exceden el ancho del contenedor */
-}
-
-/* ===========================
-   Fondo
-   =========================== */
-.blue-background {
-  position: fixed;           /* Fijo en toda la pantalla */
-  top: 0;
-  left: 0;
-  width: 100%;               /* Ocupa todo el ancho */
-  height: 100%;              /* Ocupa todo el alto */
-  z-index: -1;               /* Detrás del contenido */
-  background: linear-gradient(150deg, #0f1440 0%, #1a1f4e 25%, #0033aa 50%, #0f1440 100%);
-
 }
 
 /* ===========================
