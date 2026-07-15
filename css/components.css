@@ -413,17 +413,17 @@ input[type="checkbox"] {
   }
 
   .glass-section h2{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .glass-section h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .glass-text p{
     flex: 1 1 auto;
     padding-right: 0;         /* elimina espacio lateral */
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .glass-image,
